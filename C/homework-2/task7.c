@@ -19,8 +19,12 @@ int main(){
 
 	for(int i = 0; i < count; ++i){
 		int res = (num / n) % 10;
-		printf("%d, ", res);
-		n/=10;
+		if (i == count-1){
+			printf("%d", res);
+		}else{
+			printf("%d, ", res);
+			n/=10;
+		}
 	}printf("\n");
 	return 0;
 	
