@@ -1,5 +1,12 @@
 #include <stdio.h>
-#include <math.h>
+
+int power(int a, int b){
+	int res = 1;
+	for(int i = 0; i < b; ++i){
+		res *= a;
+	}
+	return res;
+}
 
 int main(){
 	
@@ -15,7 +22,7 @@ int main(){
 		test /= 10;
 	}
 	
-	int n = pow(10, count-1);
+	int n = power(10, count-1);
 
 	for(int i = 0; i < count; ++i){
 		int res = (num / n) % 10;

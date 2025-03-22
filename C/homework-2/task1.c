@@ -16,20 +16,20 @@ int main(){
 	i = 0;
 	while(i <= 10){
 		printf("%d ", i);
-		i++;
+		++i;
 	}printf("\n");
 
 	i = 10;
 	while(i >= 0){
 		printf("%d ", i);
-		i--;
+		--i;
 	}
 	printf("\n\n Printing with do while loop \n");
 
 	i = 0;
 	do{
 		printf("%d ", i);
-		i++;
+		++i;
 	}while(i <= 10);
 	printf("\n");
 	
@@ -37,12 +37,10 @@ int main(){
 	do{
 		printf("%d ", i);
 		--i;
-	}while(i >=0 );
+	}while(i >= 0);
 
 	printf("\n");
 
-	
-	
 	return 0;
 
 }
