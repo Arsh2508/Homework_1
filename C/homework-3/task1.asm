@@ -1,7 +1,7 @@
 extern printf
 extern scanf
 
-section .dtat
+section .data
 	fmt_s db "%d", 0
 	fmt_p db "Enter positive n: ", 0
 	fmt_res db "The %d-th fibonacci number is %d ",10 , 0
