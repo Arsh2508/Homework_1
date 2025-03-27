@@ -12,6 +12,8 @@ int main(){
 	else{			// the less siginficant byte is 4
 		printf("This platform is little-endian: \n");
 	}
+
+	printf("The first byte's value reading is %d\n", *ptr); // in my case 4
 	
 	return 0;
 
