@@ -1,8 +1,8 @@
 #include <stdio.h>
-#define size 10
 
 int main(){
 
+	const int size = 10;
 	int arr[size];
 
 	printf("Enter %d array elements: ", size);
