@@ -29,7 +29,7 @@ int main(){
 	int c = power(10, count-1);	// c is needed for counting rev_num
 	int n = 0;
 
-	for(int i = 0; i < count; i++){
+	for(int i = 0; i < count; ++i){
 		n = power(10, i);	//n starts from 1
 		rev_num += ((num / n) % 10) * (c / n);	// formula that I found
 	}	
